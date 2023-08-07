@@ -35,11 +35,13 @@ extension LoginVC : LoginScreenProtocol {
     }
     
     func tappedRegisterButton() {
-        
+        let vc = CreateVC()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
     }
     
     func tappedRequestButton() {
-        
+        viewModel.requestPasswordLink(controller: self)
     }
 }
 
@@ -61,6 +63,10 @@ extension LoginVC : UITextFieldDelegate{
 extension LoginVC : LoginViewModelProtocol {
     
     func Sucess() {
+        let vc = HomeVC()
+        let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
+        present(nav, animated: true)
     }
     
     func Failure(message : String) {
