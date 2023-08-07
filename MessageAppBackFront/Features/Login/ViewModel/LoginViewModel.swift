@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import Firebase
 
 protocol LoginViewModelProtocol: AnyObject {
     func Sucess()
@@ -18,6 +19,7 @@ class LoginViewModel {
     
     private var auth = Auth.auth()
     private weak var delegate : LoginViewModelProtocol?
+    private var db = Firestore.firestore()
     
     public func delegate(delegate : LoginViewModelProtocol?){
         self.delegate = delegate
@@ -40,6 +42,17 @@ class LoginViewModel {
             return false
         } else {
             return true
+        }
+    }
+    
+    // Request Change Password link
+    
+    
+    public func requestPasswordLink(controller: UIViewController){
+        auth.sendPasswordReset(withEmail: "Sergios.macedo15@gmail.com") { error in
+            if error == nil {
+                Alert(controller: controller).showAlertInformation(title: "Envia", message: "Email para resetar sua senha foi envaido, verifique sua caixa de entrada")
+            }
         }
     }
     

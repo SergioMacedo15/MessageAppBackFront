@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1C71B374-5A7A-4674-BF36-B0954BF6EFD0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2486DFAD-1DEA-462A-AD0F-1B08F7FA2966"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MessageAppBackFront/Features/Home/VC/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "alertStateError(titulo:message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2486DFAD-1DEA-462A-AD0F-1B08F7FA2966 - e7862c5b54aca450"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MessageAppBackFront.HomeVC.alertStateError(titulo: Swift.String, message: Swift.String) -&gt; ()"
+                  moduleName = "MessageAppBackFront"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiosilvamacedo/Documents/ViewCode_IOS/MessageAppBackFront/MessageAppBackFront/Features/Home/VC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2486DFAD-1DEA-462A-AD0F-1B08F7FA2966 - e7862c5b54aca473"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MessageAppBackFront.HomeVC.alertStateError(titulo: Swift.String, message: Swift.String) -&gt; ()"
+                  moduleName = "MessageAppBackFront"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiosilvamacedo/Documents/ViewCode_IOS/MessageAppBackFront/MessageAppBackFront/Features/Home/VC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B75BA8BD-6CA8-4084-BFA4-0EADE58CBFBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MessageAppBackFront/Features/Home/ContactController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "addContact(email:emailcurrentUser:idUser:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B75BA8BD-6CA8-4084-BFA4-0EADE58CBFBC - dc300bc7970ebae4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MessageAppBackFront.ContactController.addContact(email: Swift.String, emailcurrentUser: Swift.String, idUser: Swift.String) -&gt; ()"
+                  moduleName = "MessageAppBackFront"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiosilvamacedo/Documents/ViewCode_IOS/MessageAppBackFront/MessageAppBackFront/Features/Home/ContactController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "B75BA8BD-6CA8-4084-BFA4-0EADE58CBFBC - dc300bc7970ebae4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MessageAppBackFront.ContactController.addContact(email: Swift.String, emailcurrentUser: Swift.String, idUser: Swift.String) -&gt; ()"
+                  moduleName = "MessageAppBackFront"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiosilvamacedo/Documents/ViewCode_IOS/MessageAppBackFront/MessageAppBackFront/Features/Home/ContactController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BBD33E4-2D77-4719-966B-E67C07A6DD8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MessageAppBackFront/Features/Home/ContactController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "addContact(email:emailcurrentUser:idUser:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
